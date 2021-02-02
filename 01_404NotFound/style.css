@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* COLORS */
+
+:root {
+  --dark: #333;
+  --dark-gray: #4f4f4f;
+  --white: #fff;
+}
+
+.logo,
+.tittle,
+.dev-challenges-profile {
+  color: var(--dark);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #262626;
+  font-family: 'Inconsolata', sans-serif;
+  padding: 2.8rem 5.5rem;
+}
+
+.header {
+  align-self: flex-start;
+  background-color: white;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  letter-spacing: 0.8px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 100px 0 220px 0;
+}
+
+.scarecrow img {
+  width: 530px;
+  height: auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Space Mono', monospace;
+  width: 586px;
+  margin-left: 8.7rem;
+}
+
+.title {
+  font-size: 4rem;
+  line-height: 90px;
+  letter-spacing: 0.05px;
+  color: var(--dark);
+}
+
+.text {
+  font-weight: normal;
+  font-size: 1.6rem;
+  width: 380px;
+  padding: 2.5rem 0 4.5rem 0;
+  color: var(--dark-gray);
+}
+
+#btn {
+  width: 210px;
+  height: 60px;
+  padding: 20px;
+  background-color: var(--dark);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#btn:hover {
+  background-color: #fff;
+  border: 2px solid var(--dark);
+  color: var(--dark);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.devProfile {
+  font-size: 600;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--dark);
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    padding: 1.42rem 1.71rem;
+  }
+
+  .container {
+    transform: scale(1);
+    flex-direction: column;
+  }
+
+  .scarecrow {
+    margin: 0 auto 100px auto;
+  }
+
+  .container {
+    margin-bottom: 1.85rem;
+  }
+
+  .main {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 6rem;
+    line-height: 81px;
+  }
+
+  .text {
+    font-size: 2rem;
+    width: 90%;
+  }
+
+  #btn {
+    width: 350px;
+    height: 80px;
+    font-size: 1.5rem;
+  }
+}
+/* SMALLEST DEVICES*/
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .header {
+    width: 100%;
+  }
+  .scarecrow {
+    margin: 0 auto 50px auto;
+  }
+
+  .scarecrow img {
+    width: 100%;
+    height: auto;
+  }
+
+  .main {
+    width: 100%;
+    margin-bottom: -130px;
+  }
+
+  .title {
+    font-size: 3.5rem;
+    line-height: 40px;
+  }
+
+  .text {
+    font-size: 1.4rem;
+    width: 90%;
+  }
+
+  #btn {
+    width: 180px;
+    height: 50px;
+    font-size: 0.8rem;
+  }
+}
