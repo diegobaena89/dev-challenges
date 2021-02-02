@@ -38,20 +38,17 @@
 
 ![screenshot](https://raw.githubusercontent.com/diegobaena89/dev-challenges/master/01_404NotFound/404.gif)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+This project is the beginning of a challenge proposed by the DevChallenge platform.
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- You can see the demo of this project in the gif above.
+- I had a new experience in taking on this challenge. I got in touch with new ways to manipulate media queries and other CSS properties.
+- I've learned to improve my media queries and Css skills.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- Visual Studio Code
 
 ## Features
 
@@ -60,16 +57,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
 
 
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Linkedin [http://linkedin.com/in/diegobaena89](https://{www.linkedin.com/in/diegobaena/})
+- GitHub [@diegobaena89](https://{github.com/diegobaena89})
